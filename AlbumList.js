@@ -4,7 +4,7 @@ import list from "./list";
 
 const Albumlist = () => {
   return (
-    <ScrollView>
+    <ScrollView >
         <View style={styles.background}>
         <View style={styles.box}>
             <View style={styles.titalbox}>
@@ -64,9 +64,11 @@ const Albumlist = () => {
 };
 
 const styles = StyleSheet.create({
+   
     background:{
         backgroundColor:'#fff',
-        paddingTop:5
+        paddingTop:5,
+        marginBottom:110
     },
     box:{
         justifyContent:"center",
@@ -84,8 +86,6 @@ const styles = StyleSheet.create({
     img:{
         height:300,
         width:300,
-
-
     }
 });
 
