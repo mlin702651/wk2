@@ -1,15 +1,19 @@
-import React from "react";
-import { View } from "react-native";
-import Header from "./assets/Header";
-import Content from "./assets/Content";
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import Header from './Header';
+import Albumlist from './AlbumList';
 
 const App = () => {
   return (
-    
-     <View>
+    <View>
       <Header />
-      <Content />
+      <Albumlist />
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  
+});
+
 export default App;
